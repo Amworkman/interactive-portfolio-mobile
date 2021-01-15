@@ -1,14 +1,3 @@
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  TouchableOpacity,
-  Text,
-  StatusBar,
-} from 'react-native';
-
 const CardStore = (state = {show: 'company', cards: [], loading: false}, action) => {
   switch(action.type) {
     case 'LOADING_CARDS':

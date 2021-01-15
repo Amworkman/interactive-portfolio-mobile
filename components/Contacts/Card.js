@@ -1,18 +1,13 @@
 import React, {Component} from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Linking,
   TouchableWithoutFeedback,
   Text,
-  StatusBar,
-  TouchableWithoutFeedbackBase,
 } from 'react-native';
 import FlipCard from 'react-native-flip-card'
 import {Neomorph} from 'react-native-neomorph-shadows'
-import LinearGradient from 'react-native-linear-gradient'
 import {connect} from 'react-redux'
 import {deleteCard} from '../../actions/CardActions'
 import {updateCard} from '../../actions/CardActions'

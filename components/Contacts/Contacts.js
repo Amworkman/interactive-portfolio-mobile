@@ -6,10 +6,6 @@ import {
   StyleSheet,
   ScrollView,
   View,
-  FlatList,
-  TouchableOpacity,
-  Text,
-  StatusBar,
   ActivityIndicator,
 } from 'react-native';
 import Card from './Card'

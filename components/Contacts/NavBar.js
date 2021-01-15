@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
-  Button,
-  View,
-  TouchableOpacity,
   Text,
-  StatusBar,
 } from 'react-native';
 import { Neomorph } from 'react-native-neomorph-shadows';
 import LinearGradient from 'react-native-linear-gradient';
 import { connect } from 'react-redux';
-import { TouchableHighlight} from 'react-native'
 
 class NavBar extends Component {
   constructor() {
